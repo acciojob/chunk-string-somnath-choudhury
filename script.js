@@ -1,7 +1,7 @@
 function stringChop(str, num) {
   // your code here
 	if (str === null)
-		return null;
+		return [];
 
 	const answerArr = []
     let n = str.length
